@@ -15,6 +15,9 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
 
+State Management Library: Redux Toolkit
+Redux Toolkit is used to manage shared state across components like products, cart, search, and categories — without prop drilling. createSlice reduces boilerplate by combining actions and reducers in one place, while Immer handles immutability automatically. This makes it easy for unrelated components like Header, CategoryBar, and ProductList to read and update the same state seamlessly.
+
 UI Screenshots: 
 Product List UI: 
 <img width="1917" height="925" alt="Screenshot 2026-11-24 133846" src="https://github.com/user-attachments/assets/4c6e0f3b-e861-4088-8566-ebfebb88c3e7" />
